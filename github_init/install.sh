@@ -8,6 +8,7 @@ cd ..
 echo "#!/bin/bash" > create
 echo "python3 ${path_to_run}/main.py \$1 ${path_to_cur}/auth.txt" >> create
 #echo "idea /Users/areksahal/projects/\$1" >> create
+echo "code /Users/areksahal/projects/\$1" >> create
 echo "cd /Users/areksahal/projects/\$1" >> create
 mv create /usr/local/bin/
 cd /usr/local/bin/
